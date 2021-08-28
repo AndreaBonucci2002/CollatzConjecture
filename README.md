@@ -1,0 +1,2 @@
+# CollatzConjecture
+-Collatz sequence calculator
