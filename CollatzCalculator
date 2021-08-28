@@ -1,0 +1,18 @@
+number = input('Number:')
+
+
+def collatz(num):
+    while num != 1:
+        if num % 2 == 0:
+            num = num // 2
+            print(num)
+            return collatz(num)
+        else:
+            num = 3*num + 1
+            print(num)
+            return collatz(num)
+    else:
+        return ''
+
+
+print(collatz(int(number)))
